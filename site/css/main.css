@@ -1,0 +1,86 @@
+html, body, h1, h2, h3, h4, h5, h6, p, a, button, ol, ul, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;  
+    vertical-align: baseline;
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+  }
+html {
+  height: 100%;   
+  font-size: 100%;  
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+    display: inline-block;
+}
+a {
+    text-decoration: none; 
+    cursor: pointer;
+  }
+  a:focus{
+    text-decoration: none;
+    outline: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  li, ol, ul {
+    list-style: none;
+  }
+
+.open {
+  display: none;
+}
+  
+ .ui-timepicker-wrapper{
+  position: absolute; 
+  left: 20px; 
+  display: block;
+ }
+.appointment input {
+  border: none;
+  border-bottom: 1px solid #EBC6B6;
+  width: 344px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.first, .second, .third{ 
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+label {
+  position: relative;  
+}
+.custom-placeholder {
+    #font > .proxima-nova-light(26px,40px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: #999;
+}
+.appointment .type{
+  width: 915px;
+}
+
+button{
+  width: 266px;
+  height: 78px;
+  background-color: #EBC6B6;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
